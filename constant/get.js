@@ -2,7 +2,7 @@ const Constant = require('../models/constant')
 
 module.exports = {
      getConstant(req, res){
-        var searchQuery ={"_id": "Constantt"}
+        var searchQuery ={"_id": "Constant"}
         findConstant( req, res, searchQuery );
   }
 }
